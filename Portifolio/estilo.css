@@ -129,7 +129,7 @@ footer h2 {
     text-shadow: none;
 }
 ::-webkit-scrollbar{
-    width: 5px;
+    width: 3px;
     background-color: none;
 }
 ::-webkit-scrollbar-thumb{

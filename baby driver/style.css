@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Mont";
+    color: white;
+}
+@font-face {
+    font-family: "GunplayR";
+    src: url(gunplay/gunplay\ rg.otf);
+}
+@font-face {
+    font-family: "Gunplay3D";
+    src: url(gunplay/gunplay\ 3d.otf);
+}
+@font-face {
+    font-family: "Mont";
+    src: url(gunplay/Montserrat-Regular.ttf);
+}
+
+header {
+    background-image: url(img/poster.png);
+    background-size: cover;
+    color: #F6DBA9;
+    text-align: center;
+    height: 400px;
+    font-size: 70px;
+}
+header h1 {
+    padding-top: 250px;
+    font-family: "GunplayR";
+}
+main {
+    background-color: #E24B6C;
+}
+h2 {
+    font-family: "Gunplay3D";
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+.res {
+    padding-top: 50px;
+}
+.resumo {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 25px 50px;
+    font-size: 25px;
+}
+.elenco {
+    background-color: #C63D3F;
+}
+.artista {
+    border-radius: 300%;
+    width: 300px;
+}
+.opiniao {
+    padding: 50px 50px;
+    background-image: url(img/Group\ 7.png);
+    background-size: cover;
+    height: 350px;
+    font-size: 20px;
+    text-align: center;
+}
+.opiniao h2 {
+    padding-bottom: 20px;
+}
+.filme {
+    background-color: #C63D3F;
+}
+.trailer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+footer {
+    padding: 50px 50px;
+    background-color: #EB4D75;
+}
+.linha {
+    height: 5px;
+    background-color: white;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
